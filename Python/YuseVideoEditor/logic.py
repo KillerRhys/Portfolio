@@ -14,7 +14,7 @@ class Editor:
         self.videos = self.get_videos()
         self.digits = 3
         try:
-            with open("part.dat") as file:
+            with open("Parts/part.dat") as file:
                 self.part_number = int(file.read())
 
         except FileNotFoundError:
@@ -26,9 +26,9 @@ class Editor:
             self.default_length = 1200
             self.start = 0
             self.length = 1200
-            # self.clips = []
-            # self.clip_number = 0
-            # self.total_clips = 0
+            self.clips = []
+            self.clip_number = 0
+            self.total_clips = 0
 
     @staticmethod
     def get_videos():
@@ -78,6 +78,6 @@ class Editor:
 
             print("-----------------###-----------------")
 
-            with open('part.dat', 'w+') as file:
+            with open('Parts/part.dat', 'w+') as file:
                 file.write(str(self.part_number).zfill(self.digits))
                 file.close()

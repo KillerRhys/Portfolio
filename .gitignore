@@ -1,7 +1,7 @@
 
 Python/Lotto Linter/data/mm2022.csv
 Python/Lotto Linter/data/pb2022.csv
-Python/YuseVideoEditor/part.dat
+Python/YuseVideoEditor/Parts/part.dat
 Python/Lotto Linter/data/mm2024.csv
 Python/Lotto Linter/data/pb2024.csv
 .idea/inspectionProfiles/Project_Default.xml
@@ -12,3 +12,4 @@ Python/Lotto Linter/data/pb2024.csv
 .idea/vcs.xml
 Python/YuseVideoEditor/__pycache__/logic.cpython-310.pyc
 Python/YuseVideoEditor/temp-audio.m4a
+Python/YuseVideoEditor/Input/\#19.mp4
